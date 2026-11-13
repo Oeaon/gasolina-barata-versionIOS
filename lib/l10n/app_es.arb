@@ -1,0 +1,213 @@
+{
+  "@@locale": "es",
+  "settings": "Ajustes",
+  "back": "Volver",
+  "retry": "Reintentar",
+  "fuelGasolina95": "Gasolina 95",
+  "fuelGasolina98": "Gasolina 98",
+  "fuelDiesel": "Diésel",
+  "fuelDieselPremium": "Diésel Premium",
+  "fuelGlp": "GLP",
+  "radiusKm": "{p1} km",
+  "sortPrice": "Precio",
+  "sortDistance": "Distancia",
+  "locationPermission": "Para buscar las gasolineras más baratas cerca de ti necesitamos tu ubicación. Solo se usa en el móvil y no se envía a ningún sitio.",
+  "allowLocation": "Permitir ubicación",
+  "locationDisabled": "La ubicación del móvil está desactivada.",
+  "openSettings": "Activar ubicación",
+  "locationUnavailable": "No hemos podido saber dónde estás. Prueba otra vez en un sitio con mejor señal.",
+  "locating": "Buscando tu ubicación…",
+  "loadingStations": "Descargando precios oficiales…",
+  "errorNetwork": "No hay conexión. Comprueba tu internet e inténtalo de nuevo.",
+  "errorServer": "No se han podido cargar los precios. Inténtalo dentro de un rato.",
+  "noStations": "No hay gasolineras con este carburante a menos de {p1} km.",
+  "summaryTitle": "{p1} gasolineras a menos de {p2} km",
+  "summaryAverage": "Precio medio: {p1}",
+  "summaryCheapest": "La más barata: {p1} a {p2}",
+  "summarySaving": "Llenando {p2} L ahorras {p1} frente a la media",
+  "stationSaving": "Ahorras {p1} en {p2} L",
+  "unknownBrand": "Gasolinera",
+  "directions": "Cómo llegar",
+  "offlineData": "Sin conexión: precios guardados de la última consulta.",
+  "updatedAt": "Precios del {p1}",
+  "dataSource": "Precios oficiales con impuestos. Datos: Ministerio para la Transición Ecológica y el Reto Demográfico.",
+  "tankTitle": "Depósito",
+  "tankLiters": "{p1} litros",
+  "tankDetail": "Se usa para calcular cuánto ahorras al llenar.",
+  "privacyOptions": "Opciones de privacidad de anuncios",
+  "aboutTitle": "Acerca de",
+  "aboutText": "Precios de las gasolineras de España publicados por el Ministerio para la Transición Ecológica y el Reto Demográfico, que se actualizan cada 30 minutos. El precio final lo marca siempre el surtidor.",
+  "sourceTitle": "Fuente de los datos",
+  "sourceGeoportal": "Geoportal de Gasolineras (Ministerio)",
+  "sourceService": "Servicio oficial de precios de carburantes (minetur.gob.es)",
+  "aboutDisclaimer": "Gasolina Barata es una app independiente y no está vinculada al Ministerio ni a ningún organismo público.",
+  "version": "Versión {p1}",
+  "tripTitle": "¿Cuánto me cuesta el viaje?",
+  "tripLocked": "Calcula el combustible y lo que te cuesta un viaje repostando en la gasolinera más barata.",
+  "tripDistance": "Distancia del viaje",
+  "tripConsumption": "Con un consumo de {p1} l/100 km (cámbialo en Ajustes)",
+  "tripLiters": "Necesitas {p1} litros",
+  "tripCostCheapest": "En la más barata: {p1}",
+  "tripCostAverage": "A precio medio: {p1}",
+  "tripSaving": "Te ahorras {p1} en el viaje",
+  "consumptionTitle": "Consumo del coche",
+  "consumptionValue": "{p1} l/100 km",
+  "consumptionDetail": "Se usa en la calculadora de viajes.",
+  "premiumFeatureTrip": "Calculadora del coste de un viaje",
+  "premiumSettingsText": "Quita los anuncios y desbloquea la calculadora de viajes.",
+  "removeAds": "Quitar anuncios",
+  "premiumTitle": "Premium",
+  "premiumBack": "Volver",
+  "premiumHeadline": "Pásate a Premium",
+  "premiumActive": "Ya eres Premium. ¡Gracias por tu apoyo!",
+  "premiumBenefitNoAds": "Sin anuncios",
+  "premiumMonthly": "{p1} al mes",
+  "premiumLifetime": "{p1}, pago único para siempre",
+  "premiumLoading": "Cargando precio…",
+  "premiumStoreUnavailable": "No se puede conectar con el App Store. Inténtalo más tarde.",
+  "premiumRestore": "Restaurar compras",
+  "premiumLegal": "La suscripción se renueva cada mes y puedes cancelarla cuando quieras en el App Store.",
+  "lockedWatchAd": "Ver un anuncio y desbloquear 24 h",
+  "lockedGoPremium": "Hazte Premium",
+  "rewardedUnavailable": "No hay ningún anuncio disponible ahora mismo. Prueba dentro de un rato.",
+  "@radiusKm": {
+    "placeholders": {
+      "p1": {
+        "type": "int"
+      }
+    }
+  },
+  "@noStations": {
+    "placeholders": {
+      "p1": {
+        "type": "int"
+      }
+    }
+  },
+  "@summaryTitle": {
+    "placeholders": {
+      "p1": {
+        "type": "int"
+      },
+      "p2": {
+        "type": "int"
+      }
+    }
+  },
+  "@summaryAverage": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@summaryCheapest": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      },
+      "p2": {
+        "type": "String"
+      }
+    }
+  },
+  "@summarySaving": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      },
+      "p2": {
+        "type": "int"
+      }
+    }
+  },
+  "@stationSaving": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      },
+      "p2": {
+        "type": "int"
+      }
+    }
+  },
+  "@updatedAt": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@tankLiters": {
+    "placeholders": {
+      "p1": {
+        "type": "int"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@tripConsumption": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@tripLiters": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@tripCostCheapest": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@tripCostAverage": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@tripSaving": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionValue": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@premiumMonthly": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@premiumLifetime": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyPolicy": "Política de privacidad",
+  "termsOfUse": "Términos de uso"
+}
