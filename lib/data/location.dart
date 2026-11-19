@@ -33,7 +33,11 @@ class LocationReady extends LocationState {
 class LocationProvider {
   static const _recent = Duration(minutes: 10);
 
+  /// Solo para las capturas de la tienda (`--dart-define=SCREENSHOTS=true`): una posición fija en Madrid.
+  static const _screenshots = bool.fromEnvironment('SCREENSHOTS');
+
   Future<LocationState> current({bool askPermission = false}) async {
+    if (_screenshots) return const LocationReady(40.4168, -3.7038);
     if (!await Geolocator.isLocationServiceEnabled()) return const LocationDisabled();
     var permission = await Geolocator.checkPermission();
     if (permission == LocationPermission.denied && askPermission) permission = await Geolocator.requestPermission();
