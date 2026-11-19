@@ -9,7 +9,7 @@ solo en el móvil y la última lista se guarda para consultarla sin conexión.
 - iOS 15 o superior
 - Idiomas: español, inglés, catalán y gallego
 - Anuncios con AdMob (consentimiento con UMP) y Premium con compras de Apple:
-  `premium_monthly` (suscripción mensual, 1,99 €) y `premium_lifetime` (compra no consumible, 9,99 €)
+  `com.oeaon.gasolinabarata.premium_monthly` (suscripción mensual, 1,99 €) y `com.oeaon.gasolinabarata.premium_lifetime` (compra no consumible, 9,99 €)
 
 ## Desarrollo
 
